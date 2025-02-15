@@ -4,7 +4,7 @@ pipeline {
         AWS_REGION = 'us-east-2' // Update this to your AWS region
         ECS_CLUSTER = 'flask-cluster' // Replace with your ECS cluster name
         ECS_SERVICE = 'flask-service' // Replace with your ECS service name
-        DOCKER_IMAGE = 'balajibathala12/flask-app' // Replace with your Docker Hub image (e.g., balajibathala/flask-app)
+        DOCKER_IMAGE = 'balajibathala12/flask-app' // Replace with your Docker Hub image 
     }
     stages {
         stage('Code Checkout') {
